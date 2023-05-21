@@ -1,3 +1,21 @@
+let recetas = [];
+
+const cargaInicial = () => {
+    const getRecetas = async () => {
+        await fetch('../data/recetas.json')
+            .then(response => response.json())
+            .then(data => {
+                for(receta of data) {
+                    recetas.push(receta)
+                }
+            })
+            .catch (err => {
+                console.log(err);
+            });
+    }
+    getRecetas();
+    console.log(recetas)
+}
 
 const handleClickMenu = (item) => {
     const mainContent = document.getElementById('main-section');
@@ -47,6 +65,7 @@ const itemContacto = () => {
 }
 
 document.addEventListener('DOMContentLoaded', () => {
+    cargaInicial();
     const mainContent = document.getElementById('main-section');
     mainContent.innerHTML = itemInicio();
 });

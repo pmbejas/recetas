@@ -27,5 +27,34 @@
             }
         ],
     "preparacion" : "Preparar la carne cortando cada suprema a la mitad y por lo largo, darle pequeños golpes con el martillo para carnes. Salarlas a gusto. Pasarlas por los huevos ligeramente batidos con el ajo pizado, el perejil y la sal. Luego, pasarlas por el pan rallado presionando con los dedos para garantizar que quede bien adherido. Para Freir: Calentar en una sartén abundante Aceite de Puro Girasol, freír las supremas, retirar y escurrir en papel absorbente de cocina. Para horno: Calentar el horno a fuego medio y poner una fuente para horno pincelada con aceite puro de girasol, luego poner las milanesas en la fuente caliente y cocinar a temperatura media durante 15 minutos retirar, dar vueltas las milanesas y cocinar durante 5 minutos mas. Retirar y servir caliente con alguna ensalada."
+    },
+    {
+        "id": 2,
+        "nombre": "Suprema de Pollo",
+        "slug": "suprema-de-pollo",
+        "foto": "receta1",
+        "ingredientes": [
+            {
+                "ingrediente" : "Filet de Pollo",
+                "cantidad": "1 kg"
+            },
+            {
+                "ingrediente" : "Huevo",
+                "cantidad": "3 unidades"
+            },
+            {
+                "ingrediente" : "Ajo",
+                "cantidad": "1 diente"
+            },
+            {
+                "ingrediente" : "Perejil Picado",
+                "cantidad": "1 cucharada"
+            },
+            {
+                "ingrediente" : "Sal",
+                "cantidad": "1 cucharadita"
+            }
+        ],
+    "preparacion" : "Preparar la carne cortando cada suprema a la mitad y por lo largo, darle pequeños golpes con el martillo para carnes. Salarlas a gusto. Pasarlas por los huevos ligeramente batidos con el ajo pizado, el perejil y la sal. Luego, pasarlas por el pan rallado presionando con los dedos para garantizar que quede bien adherido. Para Freir: Calentar en una sartén abundante Aceite de Puro Girasol, freír las supremas, retirar y escurrir en papel absorbente de cocina. Para horno: Calentar el horno a fuego medio y poner una fuente para horno pincelada con aceite puro de girasol, luego poner las milanesas en la fuente caliente y cocinar a temperatura media durante 15 minutos retirar, dar vueltas las milanesas y cocinar durante 5 minutos mas. Retirar y servir caliente con alguna ensalada."
     }
 ]
