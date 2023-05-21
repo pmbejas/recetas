@@ -1,3 +1,5 @@
+@import './nav.css';
+
 * {
     padding: 0;
     margin: 0;
@@ -6,6 +8,7 @@
 body {
     font-family: Inter;
 }
+
 
 :root {
     --nav-background: rgb(25,25,25);
@@ -31,50 +34,6 @@ header {
 main {
     display: flex;
     flex-direction: column;
-    top: var(--navbar-height);
-}
-
-header nav {
-    display: grid;
-    grid-template-columns: 1.5fr 4fr 1fr;
-    position: relative;
-    width: 100%;
-    top: 0;
-    padding: 0;
-    margin: 0;
-}
-
-.menu-logotipo {
-    display: flex;
-    flex-direction: column;
-    padding: 0px;
-}
-
-.menu-logotipo img {
-    height: calc(var(--navbar-height) - 30px);   
-}
-
-.menu-items {
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-end;
-}
-.menu-items ul {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    padding-right: 40px;
-    list-style: none;
-    gap: 30px;
-    align-self: center;
-}
-
-.menu-items ul li {
-    transition: color 0.5s ease-in-out;
-}
-
-.menu-items ul li:hover {
-    color: var(--text-color-selected);
-    cursor: pointer;
+    margin-top: var(--navbar-height);
 }
 
