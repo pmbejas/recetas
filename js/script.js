@@ -15,7 +15,24 @@ const handleClickMenu = (item) => {
 }
 
 const itemInicio = () => {
-    const contenido = `<h1> INICIO </h1>`
+    const contenido = `
+        <div class="titulo-inicio">
+            <h1>Recetas Fáciles y Ricas</h1>
+            <h3 class="subtitulo-inicio">
+                <p>Si hoy toca cenar en el sofá necesitas dar un vistazo a estas recetas rápidas y fáciles de cocinar.</p>
+                <p>¿Con cuál de todas te quedas?</p>
+            </h3>
+            <section class="seccion-links">
+                <div class="card-links" onclick="handleClickMenu('recetas')">
+                    <h4>Nuestras Recetas</h4>
+                </div>
+                <div class="card-links" onclick="handleClickMenu('contacto')">
+                    <h4>Dejanos un mensaje</h4>
+                </div>
+            </section>
+        </div>
+
+    `
     return contenido;
 }
 
@@ -33,4 +50,5 @@ document.addEventListener('DOMContentLoaded', () => {
     const mainContent = document.getElementById('main-section');
     mainContent.innerHTML = itemInicio();
 });
+
 
