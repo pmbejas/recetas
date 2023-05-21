@@ -1,3 +1,4 @@
+
 const handleClickMenu = (item) => {
     const mainContent = document.getElementById('main-section');
     switch (item) {
@@ -14,7 +15,7 @@ const handleClickMenu = (item) => {
 }
 
 const itemInicio = () => {
-    const contenido = `<h1>INICIO</h1>`;
+    const contenido = `<h1> INICIO </h1>`
     return contenido;
 }
 
@@ -27,3 +28,9 @@ const itemContacto = () => {
     const contenido = `<h1>CONTACTO</h1>`;
     return contenido;
 }
+
+document.addEventListener('DOMContentLoaded', () => {
+    const mainContent = document.getElementById('main-section');
+    mainContent.innerHTML = itemInicio();
+});
+

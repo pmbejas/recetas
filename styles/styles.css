@@ -35,5 +35,7 @@ main {
     display: flex;
     flex-direction: column;
     margin-top: var(--navbar-height);
+    align-items: center;
+    width: 90%;
 }
 
