@@ -1,5 +1,6 @@
 @import './nav.css';
 @import './inicio.css';
+@import './consulta.css';
 
 * {
     padding: 0;

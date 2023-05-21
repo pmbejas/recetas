@@ -1,0 +1,76 @@
+:root {
+    --celeste: rgb(33, 28, 116);
+}
+
+.seccion-consulta {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+    width: 50%;
+}
+
+.titulo-consulta {
+    padding-top: 30px;
+}
+
+.seccion-consulta p {
+    text-align: justify;
+}
+
+.field-group {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    gap: 20px;
+    justify-content: space-between;
+}
+
+.justify-start {
+    justify-content: flex-start;
+}
+
+.option-form {
+    margin-top: 10px;
+    margin-left: 10px;
+}
+.form-line {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+    align-items: start;
+}
+
+.form-field {
+    height: 40px;
+    width: 100%;
+    border-radius: 5px;
+    border: solid 1px rgb(150,150,150);
+    font-size: 1.1em;
+    padding: 0px 10px;
+}
+
+.textarea-field {
+    height: 200px;
+}
+
+.width48 {
+    width: 48%;
+}
+
+.form-button {
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: none;
+    color: whitesmoke;
+    opacity: 0.8;
+    transition: 0.5s ease-in-out;
+    height: 40px;
+    font-size: 1rem;
+    cursor: pointer;
+    background-color: var(--celeste);
+}
+
+.form-button:hover{
+    opacity: 1;
+}
