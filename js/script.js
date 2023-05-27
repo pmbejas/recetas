@@ -33,17 +33,17 @@ const handleClickMenu = (item) => {
 
 const itemInicio = () => {
     const contenido = `
-        <div class="titulo-inicio">
+        <div class="main__inicio__titulo">
             <h1>Recetas Fáciles y Ricas</h1>
-            <h3 class="subtitulo-inicio">
+            <h3>
                 <p>Si hoy toca cenar en el sofá necesitas dar un vistazo a estas recetas rápidas y fáciles de cocinar.</p>
                 <p>¿Con cuál de todas te quedas?</p>
             </h3>
-            <section class="seccion-links">
-                <div class="card-links" onclick="handleClickMenu('recetas')">
+            <section class="main__inicio__links">
+                <div class="main__inicio__links__card" onclick="handleClickMenu('recetas')">
                     <h4>Nuestras Recetas</h4>
                 </div>
-                <div class="card-links" onclick="handleClickMenu('contacto')">
+                <div class="main__inicio__links__card" onclick="handleClickMenu('contacto')">
                     <h4>Dejanos un mensaje</h4>
                 </div>
             </section>
@@ -60,45 +60,45 @@ const itemRecetas = () => {
 
 const itemContacto = () => {
     const contenido = `
-        <div class="seccion-consulta">
-            <div class="titulo-consulta">
+        <div class="main__consulta">
+            <div class="main__consulta__titulo">
                 <h1>Dejanos Tu Consulta</h1>
             </div>
             <p>Complete este Formulario de Consulta para obtener información adicional sobre nuestros productos o servicios. Lo contactaremos a la brevedad por teléfono o email. </p>
             <form id="contact-form" action="">
-                <div class="field-group">
-                    <div class="form-line width48">
+                <div class="main__form__fieldGroup">
+                    <div class="main__form__fieldGroup__line width48">
                         <label for="nombre">Nombre:</label>
-                        <input class="form-field" type="text" id="nombre" name="nombre" required>
+                        <input class="main__form__fieldGroup__line__field" type="text" id="nombre" name="nombre" required>
                     </div>
-                    <div class="form-line width48">
+                    <div class="main__form__fieldGroup__line width48">
                         <label for="apellido">Apellido:</label>
-                        <input class="form-field" type="text" id="apellido" name="apellido" required>
+                        <input class="main__form__fieldGroup__line__field" type="text" id="apellido" name="apellido" required>
                     </div>
                 </div>
-                <div class="form-line">
+                <div class="main__form__fieldGroup__line">
                     <label for="email">Correo electrónico:</label>
-                    <input class="form-field" type="email" id="email" name="email" required>
+                    <input class="main__form__fieldGroup__line__field" type="email" id="email" name="email" required>
                 </div>
-                <div class="form-line">
+                <div class="main__form__fieldGroup__line">
                     <p>Por favor, sea específico acerca de la duda que quiere enviar a través de este Formulario de Consulta, de forma tal que podamos contactarlo rápidamente con la información que necesita. Le agradecemos su tiempo.</p>
                 </div>
-                <div class="form-line">
+                <div class="main__form__fieldGroup__line">
                     <label for="tipoConsulta">Motivo de la Consulta</label>
-                    <select class="form-field" name="tipoConsulta" id="tipoConsulta">
+                    <select class="main__form__fieldGroup__line__field" name="tipoConsulta" id="tipoConsulta">
                         <option value="1">Enviarnos una Sugerencia</option>
                         <option value="2">Solicitarnos una Receta</option>
                         <option value="3">Mejorar alguna receta publicada</option>
                         <option value="4">Otros</option>
                     </select>
                 </div>
-                <div class="form-line">
+                <div class="main__form__fieldGroup__line">
                     <label for="mensaje">Mensaje:</label>
-                    <textarea class="form-field textarea-field" id="mensaje" name="mensaje" required></textarea>
+                    <textarea class="main__form__fieldGroup__line__field textarea-field" id="mensaje" name="mensaje" required></textarea>
                 </div>
-                <div class="form-line">
+                <div class="main__form__fieldGroup__line">
                     <label for="opcionTelefono">¿Desea ser contactado telefónicamente?</label>
-                    <div class="field-group justify-start">
+                    <div class="main__form__fieldGroup justify-start">
                         <div class="option-form">
                             <input type="radio" id="opcion1" name="opcionTelefono" value="1">
                             <label for="opcion1">Si</label><br>
@@ -109,11 +109,11 @@ const itemContacto = () => {
                         </div>
                     </div>
                 </div>
-                <div class="form-line">
+                <div class="main__form__fieldGroup__line">
                     <label for="telefono">Teléfono</label>
-                    <input class="form-field" type="number" id="telefono" name="telefono" required>
+                    <input class="main__form__fieldGroup__line__field" type="number" id="telefono" name="telefono" required>
                 </div>
-                <div class="form-line">
+                <div class="main__form__fieldGroup__line">
                     <button class="form-button btnAgregar" type="submit">Enviar consulta</button>
                 </div>
             </form>

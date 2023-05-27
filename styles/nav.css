@@ -1,4 +1,4 @@
-.nav-main {
+.header__nav {
     display: grid;
     grid-template-columns: 2fr 4fr;
     position: relative;
@@ -9,22 +9,22 @@
     align-self: center;
 }
 
-.menu-logotipo {
+.header__nav__logotipo {
     display: flex;
     flex-direction: column;
     padding: 0px;
 }
 
-.menu-logotipo img {
+.header__nav__logotipo img {
     height: calc(var(--navbar-height) - 30px);   
 }
 
-.menu-items {
+.header__nav__items {
     display: flex;
     flex-direction: row;
     justify-content: flex-end;
 }
-.menu-items ul {
+.header__nav__items ul {
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -34,11 +34,11 @@
     align-self: center;
 }
 
-.menu-items ul li {
+.header__nav__items ul li {
     transition: color 0.5s ease-in-out;
 }
 
-.menu-items ul li:hover {
+.header__nav__items ul li:hover {
     color: var(--text-color-selected);
     cursor: pointer;
 }

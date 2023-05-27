@@ -2,7 +2,7 @@
     --celeste: rgb(33, 28, 116);
 }
 
-.seccion-consulta {
+.main__consulta {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -10,15 +10,15 @@
     width: 50%;
 }
 
-.titulo-consulta {
+.main__consulta__titulo {
     padding-top: 30px;
 }
 
-.seccion-consulta p {
+.main__consulta p {
     text-align: justify;
 }
 
-.field-group {
+.main__form__fieldGroup {
     display: flex;
     flex-direction: row;
     width: 100%;
@@ -34,14 +34,14 @@
     margin-top: 10px;
     margin-left: 10px;
 }
-.form-line {
+.main__form__fieldGroup__line {
     display: flex;
     flex-direction: column;
     margin-bottom: 20px;
     align-items: start;
 }
 
-.form-field {
+.main__form__fieldGroup__line__field {
     height: 40px;
     width: 100%;
     border-radius: 5px;
